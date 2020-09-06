@@ -104,7 +104,7 @@ function! <SID>SetComment(begin)
       endif
     endif
     call append(l + 1,      g:file_copyright_comment_prefix." ====================================================")
-    call append(l + 2,  g:file_copyright_comment_mid_prefix."   Copyright (C)".strftime("%Y")." All rights reserved.")
+    call append(l + 2,  g:file_copyright_comment_mid_prefix."   Copyright (C) ".strftime("%Y")." All rights reserved.")
     call append(l + 3,  g:file_copyright_comment_mid_prefix)
     call append(l + 4,  g:file_copyright_comment_mid_prefix."   Author        : ".expand(g:file_copyright_name))
     call append(l + 5,  g:file_copyright_comment_mid_prefix."   Email         : ".expand(g:file_copyright_email))
